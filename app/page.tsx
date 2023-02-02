@@ -150,7 +150,7 @@ export default function Home() {
     </div>
     <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-white" />
     <footer>
-      <h3>Copyright&copy; <span>{copyRightYear()}</span>. All rights reserved. </h3>&nbsp;
+      <h3>Copyright&copy; <span>{copyRightYear()}</span>. &nbsp;All rights reserved. </h3>&nbsp;
       
       <h3> Written in NextJS 13 and Tailwind.</h3>
     </footer>
