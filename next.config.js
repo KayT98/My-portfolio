@@ -4,12 +4,7 @@ const nextConfig = {
   swcMinify: true,
   optimizeFonts: true,
   images: {
-    remotePatterns: [
-    {
-      protocol: "https",
-      hostname: "d.newsweek.com"
-    }
-  ],
+    unoptimized: true
   },
   experimental: {
     appDir: true,
