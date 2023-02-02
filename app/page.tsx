@@ -7,9 +7,6 @@ import * as FileSaver from 'file-saver';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faHandPeace, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { config } from '@fortawesome/fontawesome-svg-core';
-config.autoAddCss = false;
-
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -43,7 +40,7 @@ export default function Home() {
       
 
     <div id="top">
-        <h1 className="text-4xl font-bold text-white"> <FontAwesomeIcon icon={faHandPeace} width={40} height={40}/> &nbsp;Hello! My name is Kay Truong</h1>
+        <h1 className="text-4xl font-bold text-white"> &nbsp;Hello! My name is Kay Truong</h1>
           <h2 className="text-3xl font-bold">I&apos;m a Front-End Web Developer at Seminaut Inc</h2>
       <p className="text-center">I graduated from Northeastern State University in Oklahoma, Spring 2022. I was born and raised in Vietnam
         for 14 years before moving to the US. I always curious on how websites were made and after seeing my uncle working on
