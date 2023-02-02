@@ -3,9 +3,7 @@
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
 import Link from 'next/link'
-import Head from 'next/head'
 import * as FileSaver from 'file-saver';
-import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faHandPeace, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -29,9 +27,6 @@ const saveFile = () => {
 export default function Home() {
   return (
     <>
-      <Head><title>Welcome to my portfolio!</title></Head>
-
-
       <div className={styles.navBar}>
         <h4 className="text-2xl font-extrabold"><a href="#">Kay Truong</a></h4>
         <nav>
@@ -75,67 +70,31 @@ export default function Home() {
           <div className={styles.project}> 
             <ul>
               <li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and Display All Badges When Button Is Clicked - Written in React (Mobile UI)
-              <Image src={'/../public/5badges.png'} className={styles.img}
-              alt='guildgaming'
-              width={400}
-              height={400}
-              /> 
-              <Image src={'/../public/allbadges.png'} className={styles.img}
-              alt='guildgaming'
-              width={250}
-              height={250}
-              /> 
+              <img src={'../5badges.png'} className={styles.img} alt='guildgaming' width={400} height={400}></img>       
+
+              <img src={'../allbadges.png'} className={styles.img} alt='guildgaming' width={250} height={250}></img> 
               </li>
 
               <li className={styles.li}>Guild Gaming Monetization Task - Display Price Tiers - Written in React (Front End)
-              <Image src={'/../public/featuredevents.png'} className={styles.img}
-              alt='guildgaming'
-              width={200}
-              height={150}
-              /> 
+              <img src={'../featuredevents.png'} className={styles.img} alt='guildgaming' width={200} height={150}></img>              
               </li>
 
               <li className={styles.li}>Guild Gaming UI Task - User Activity Post and Post Modal When Button Clicked - Written in React (Desktop UI) 
-              <Image src={'/../public/userpost.png'} className={styles.img}
-              alt='guildgaming'
-              width={550}
-              height={500}
-              /> 
-              <Image src={'/../public/userpostmodal.png'} className={styles.img}
-              alt='guildgaming'
-              width={350}
-              height={300}
-              /> 
+              <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
+              <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
               </li>
 
               <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/pet-pics-api/'>Pet Pics API Fetch - Written in React <FontAwesomeIcon icon={faLink} /></Link></li>
-              <Image src={'/../public/api.png'} className={styles.img}
-              alt='api'
-              width={350}
-              height={300}
-              style={{alignSelf: 'center'}}
-              /> 
+              <img src={'../api.png'} className={styles.img} alt='api' width={350} height={300}></img>
               
               <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/MorsecodeTranslator/'>Morse Code Translator - Written in HTML5, CSS3 and Vanilla JS <FontAwesomeIcon icon={faLink} /></Link></li>
-              <Image src={'/../public/morse.png'} className={styles.img}
-              alt='morse'
-              width={350}
-              height={300}
-              /> 
+              <img src={'../morse.png'} className={styles.img} alt='morse' width={350} height={300}></img>
               
               <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/discIDchecker/'>Discord ID Checker - Written in HTML5, CSS3 and Vanilla JS <FontAwesomeIcon icon={faLink} /></Link></li>
-              <Image src={'/../public/discord.png'} className={styles.img}
-              alt='discord'
-              width={450}
-              height={300}
-              /> 
+              <img src={'../discord.png'} className={styles.img} alt='discord' width={450} height={300}></img>
               
               <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/WallpaperClock'>Wallpaper Clock - Capstone Project - Written in C# <FontAwesomeIcon icon={faLink} /></Link></li>
-              <Image src={'/../public/clock.png'} className={styles.img}
-              alt='clock'
-              width={450}
-              height={300}
-              /> 
+              <img src={'../clock.png'} className={styles.img} alt='clock' width={450} height={300}></img>              
             </ul>  
           </div>
 
