@@ -1,11 +1,10 @@
 'use client';
-
+import React from 'react';
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
 import Link from 'next/link'
-import * as FileSaver from 'file-saver';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope, faHandPeace, faLink } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -14,14 +13,6 @@ const inter = Inter({ subsets: ['latin'] })
 const copyRightYear = () => {
   return new Date().getFullYear()
 }
-
-const saveFile = () => {
-  FileSaver.saveAs(
-    process.env.REACT_APP_CLIENT_URL + "../public/Kay-Truong-Resume.pdf",
-    "KayTruongResume.pdf"
-  );
-}
-
 
 export default function Home() {
   return (
@@ -45,21 +36,21 @@ export default function Home() {
       <p className="text-center">I graduated from Northeastern State University in Oklahoma, Spring 2022. I was born and raised in Vietnam
         for 14 years before moving to the US. I always curious on how websites were made and after seeing my uncle working on
         his website project, I started to like website development. I&apos;m a hardworking and passionate job seeker with strong organizational skills,
-        3 years in HTML5 & CSS3, 1.5 years in JavaScript, I&apos;m currently learning and working on project with NextJS 13, Tailwind, TypeScript and React. Highly motivated and bilingual in Vietnamese and English.
-        Ready and willing to help the team achieve company goals. Superior work ethic and good teamwork, problem solving and organizational skills. Wanting to gain more experience in an
+        with experience in HTML5 & CSS3, JavaScript, Front End Development and UI Design, I&apos;m currently learning and working on project with NextJS 13, Tailwind, TypeScript and React. Highly motivated and bilingual in Vietnamese and English.
+        Ready and willing to learn anything new to help the team achieve company goals. Superior work ethic and good teamwork, problem solving and organizational skills. Wanting to gain more experience in an
         environment that encourages growth.
       </p>
         
           <div className={styles.downloadBtn}>
-            <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onClick={saveFile}>Download my resume</button>
+            <a href='Kay Truong Resume.pdf' download><button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">Download my resume</button></a>
           </div>
 
               <h1 id="skills" className="text-3xl font-bold text-white">Skills</h1>
           <div className={styles.skills}>  
             <ul>      
-              <li>-Programming languages/Frameworks/Libraries: HTML5/HTML/CSS3/CSS, JavaScript(ES6), SQL/MYSQL, Bootstrap5, React, NextJS 13, Tailwind, XML, JSON.</li>
+              <li>-Programming languages/Frameworks/Libraries: HTML5/HTML/CSS3/CSS, JavaScript(ES6), SQL/MYSQL, Bootstrap5, React, NextJS 13, Tailwind, XML, JSON, JQuery, C# (basic knowledge) </li>
               <li>-Software: Figma, Microsoft Office, Microsoft SQL Server, Visual Studio Code, Git Bash, Github, ClickUp</li>
-              <li>-Technical skills: IT, Computer Building.</li>
+              <li>-Technical skills: IT (basic knowledge), Computer Building.</li>
               <li>-Soft skills: Time Management, Creative Thinking, Teamworking, Responsibility, Ability to work under pressure, Flexibility, Problem Solving, Excellent Verbal & Written Communication,
                 Determining the Structure & Design of Web Pages, Ensuring Web Design is Optimized for Mobile Devices.</li>
             </ul>     
