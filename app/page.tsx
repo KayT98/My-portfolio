@@ -101,7 +101,7 @@ export default function Home() {
     <footer>
       <h3>Copyright&copy; <span>{copyRightYear()}</span>. &nbsp;All rights reserved. </h3>&nbsp;
       
-      <h3> Written in NextJS 13 and Tailwind.</h3>
+      <h3> Written in NextJS 13 (TypeScript) and Tailwind.</h3>
     </footer>
     </>
   )
