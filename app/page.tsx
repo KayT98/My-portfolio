@@ -6,9 +6,11 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 const inter = Inter({ subsets: ['latin'] })
+
 
 const copyRightYear = () => {
   return new Date().getFullYear()
@@ -29,7 +31,6 @@ export default function Home() {
         </nav>
       </div>
       
-
     <div id="top">
         <h1 className="text-4xl font-bold text-white"> &nbsp;Hello! My name is Kay Truong</h1>
           <h2 className="text-3xl font-bold">I&apos;m a Front-End Web Developer at Seminaut Inc</h2>
@@ -40,7 +41,7 @@ export default function Home() {
         Ready and willing to learn anything new to help the team achieve company goals. Superior work ethic and good teamwork, problem solving and organizational skills. Wanting to gain more experience in an
         environment that encourages growth.
       </p>
-        
+
           <div className={styles.downloadBtn}>
             <a href='Kay Truong Resume.pdf' download><button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">Download my resume</button></a>
           </div>
@@ -48,9 +49,9 @@ export default function Home() {
               <h1 id="skills" className="text-3xl font-bold text-white">Skills</h1>
           <div className={styles.skills}>  
             <ul>      
-              <li>-Programming languages/Frameworks/Libraries: HTML5/HTML/CSS3/CSS, JavaScript(ES6), SQL/MYSQL, Bootstrap5, React, NextJS 13, Tailwind, XML, JSON, JQuery, C# (basic knowledge) </li>
-              <li>-Software: Figma, Microsoft Office, Microsoft SQL Server, Visual Studio Code, Git Bash, Github, ClickUp</li>
-              <li>-Technical skills: IT (basic knowledge), Computer Building.</li>
+              <li>-Programming languages/Frameworks/Libraries: HTML5/HTML/CSS3/CSS, JavaScript(ES6), SQL/MYSQL, Bootstrap5, React, NextJS 13, Tailwind, XML, JSON, JQuery, C# (basic knowledge). </li>
+              <li>-Software: Figma, Microsoft Office, Microsoft SQL Server, Visual Studio Code, Git Bash, Github, ClickUp.</li>
+              <li>-CMS platform: WordPress.</li>
               <li>-Soft skills: Time Management, Creative Thinking, Teamworking, Responsibility, Ability to work under pressure, Flexibility, Problem Solving, Excellent Verbal & Written Communication,
                 Determining the Structure & Design of Web Pages, Ensuring Web Design is Optimized for Mobile Devices.</li>
             </ul>     
@@ -58,8 +59,30 @@ export default function Home() {
 
               <h1 id="projects" className="text-3xl font-bold text-white">Projects</h1>
           <div className={styles.project}> 
+          <Carousel className='carousel' showThumbs={false}>
+            <div>
+                <img src={'../5badges.png'} alt='task' />
+                <p>GG</p>
+            </div>
+            <div>
+                <img src={'../allbadges.png'} alt='task' />
+                <p>GG task</p>
+            </div>
+            <div>
+                <img src={'../userpost.png'} alt='task' />
+                <p>GG task</p>
+            </div>
+            <div>
+                <img src={'../userpostmodal.png'} alt='task' />
+                <p>GG task</p>
+            </div>
+            <div>
+                <img src={'../featuredevents.png'} alt='task' style={{height:'500px'}}/>
+                <p>GG task</p>
+            </div>
+          </Carousel>
             <ul>
-              <li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and Display All Badges When Button Is Clicked - Written in React (Mobile UI)
+              { /**<li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and Display All Badges When Button Is Clicked - Written in React (Mobile UI)
               <img src={'../5badges.png'} className={styles.img} alt='guildgaming' width={400} height={400}></img>       
 
               <img src={'../allbadges.png'} className={styles.img} alt='guildgaming' width={250} height={250}></img> 
@@ -72,8 +95,7 @@ export default function Home() {
               <li className={styles.li}>Guild Gaming UI Task - User Activity Post and Post Modal When Button Clicked - Written in React (Desktop UI) 
               <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
               <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
-              </li>
-
+  </li> **/}
               <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/pet-pics-api/'>Pet Pics API Fetch - Written in React <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../api.png'} className={styles.img} alt='api' width={350} height={300}></img>
               
@@ -99,7 +121,7 @@ export default function Home() {
     </div>
     <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-white" />
     <footer>
-      <h3>Copyright&copy; <span>{copyRightYear()}</span>. &nbsp;All rights reserved. </h3>&nbsp;
+      <h3>Kay Truong&copy; <span>{copyRightYear()}</span>. &nbsp;All rights reserved. </h3>&nbsp;
       
       <h3> Written in NextJS 13 (TypeScript) and Tailwind.</h3>
     </footer>

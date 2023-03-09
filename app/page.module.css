@@ -14,7 +14,7 @@
 }
 
 .img {
-    display: block;
+    display: flex;
     margin: 16px auto;
     border: 1px white solid;
     border-radius: 10px;
