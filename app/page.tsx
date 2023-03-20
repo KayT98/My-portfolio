@@ -56,13 +56,15 @@ export default function Home() {
             </ul>     
           </div>
 
-              <h1 id="projects" className="text-3xl font-bold text-white">Projects</h1>
+          <h1 id="projects" className="text-3xl font-bold text-white">Guild Gaming/Seminaut Inc Tasks</h1>
           <div className={styles.project}> 
-            <ul>
-              <li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and Display All Badges When Button Is Clicked - Written in React (Mobile UI)
+          <ul>
+              <li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and Display All Badges When Button Is Clicked - Written in React & CSS3 (Mobile UI)
               <img src={'../5badges.png'} className={styles.img} alt='guildgaming' width={400} height={400}></img>       
 
-              <img src={'../allbadges.png'} className={styles.img} alt='guildgaming' width={250} height={250}></img> 
+              <video className={styles.img} width={400} height={400} controls autoPlay>
+                <source src='responsivebadges.mp4' type='video/mp4' />
+                  </video> 
               </li>
 
               <li className={styles.li}>Guild Gaming Monetization Task - Display Price Tiers - Written in React (Front End)
@@ -73,21 +75,27 @@ export default function Home() {
               <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
               <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
               </li>
+              </ul>
+          </div>
 
+
+
+              <h1 id="projects" className="text-3xl font-bold text-white">Personal Projects</h1>
+          <div className={styles.project}> 
+              <ul>
               <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/pet-pics-api/'>Pet Pics API Fetch - Written in React <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../api.png'} className={styles.img} alt='api' width={350} height={300}></img>
               
-              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/MorsecodeTranslator/'>Morse Code Translator - Written in HTML5, CSS3 and Vanilla JS <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/MorsecodeTranslator/'>Morse Code Translator - Written in HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../morse.png'} className={styles.img} alt='morse' width={350} height={300}></img>
               
-              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/discIDchecker/'>Discord ID Checker - Written in HTML5, CSS3 and Vanilla JS <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/discIDchecker/'>Discord ID Checker - Written in HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../discord.png'} className={styles.img} alt='discord' width={450} height={300}></img>
               
               <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/WallpaperClock'>Wallpaper Clock - Capstone Project - Written in C# <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../clock.png'} className={styles.img} alt='clock' width={450} height={300}></img>              
             </ul>  
           </div>
-
               <h1 className="text-3xl font-bold text-white">Contact me!</h1>
           <div className={styles.contact} id="contact">
               <ul>
@@ -99,7 +107,7 @@ export default function Home() {
     </div>
     <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-white" />
     <footer>
-      <h3>Copyright&copy; <span>{copyRightYear()}</span>. &nbsp;All rights reserved. </h3>&nbsp;
+      <h3>Kay Truong &copy; <span>{copyRightYear()}</span>. &nbsp;All rights reserved. </h3>&nbsp;
       
       <h3> Written in NextJS 13 (TypeScript) and Tailwind.</h3>
     </footer>
