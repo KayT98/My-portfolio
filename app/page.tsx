@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,8 +31,12 @@ export default function Home() {
       </div>
       
     <div id="top">
-        <h1 className="text-4xl font-bold text-white"> &nbsp;Hello! My name is Kay Truong</h1>
-          <h2 className="text-3xl font-bold">I&apos;m a Front-End Web Developer at Seminaut Inc</h2>
+      <div className='name'>
+        <h1 id="animation1" className="text-4xl font-bold text-white">&nbsp;Hello! My name is Kay Truong</h1>
+      </div>
+      <div className='position'>
+        <h2 className="text-3xl font-bold">I&apos;m a Front-End Web Developer at Seminaut Inc</h2>
+      </div>
       <p className="text-center">I graduated from Northeastern State University in Oklahoma, Spring 2022. I was born and raised in Vietnam
         for 14 years before moving to the US. I always curious on how websites were made and after seeing my uncle working on
         his website project, I started to like website development. I&apos;m a hardworking and passionate job seeker with strong organizational skills,
@@ -57,35 +60,15 @@ export default function Home() {
             </ul>     
           </div>
 
-              <h1 id="projects" className="text-3xl font-bold text-white">Projects</h1>
+          <h1 id="projects" className="text-3xl font-bold text-white">Guild Gaming/Seminaut Inc Tasks</h1>
           <div className={styles.project}> 
-          <Carousel className='carousel' showThumbs={false}>
-            <div>
-                <img src={'../5badges.png'} alt='task' />
-                <p>GG</p>
-            </div>
-            <div>
-                <img src={'../allbadges.png'} alt='task' />
-                <p>GG task</p>
-            </div>
-            <div>
-                <img src={'../userpost.png'} alt='task' />
-                <p>GG task</p>
-            </div>
-            <div>
-                <img src={'../userpostmodal.png'} alt='task' />
-                <p>GG task</p>
-            </div>
-            <div>
-                <img src={'../featuredevents.png'} alt='task' style={{height:'500px'}}/>
-                <p>GG task</p>
-            </div>
-          </Carousel>
-            <ul>
-              { /**<li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and Display All Badges When Button Is Clicked - Written in React (Mobile UI)
+          <ul>
+              <li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and Display All Badges When Button Is Clicked - Written in React & CSS3 (Mobile UI)
               <img src={'../5badges.png'} className={styles.img} alt='guildgaming' width={400} height={400}></img>       
 
-              <img src={'../allbadges.png'} className={styles.img} alt='guildgaming' width={250} height={250}></img> 
+              <video className={styles.img} width={400} height={400} controls autoPlay>
+                <source src='responsivebadges.mp4' type='video/mp4' />
+                  </video> 
               </li>
 
               <li className={styles.li}>Guild Gaming Monetization Task - Display Price Tiers - Written in React (Front End)
@@ -95,14 +78,22 @@ export default function Home() {
               <li className={styles.li}>Guild Gaming UI Task - User Activity Post and Post Modal When Button Clicked - Written in React (Desktop UI) 
               <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
               <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
-  </li> **/}
+              </li>
+              </ul>
+          </div>
+
+
+
+              <h1 id="projects" className="text-3xl font-bold text-white">Personal Projects</h1>
+          <div className={styles.project}> 
+              <ul>
               <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/pet-pics-api/'>Pet Pics API Fetch - Written in React <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../api.png'} className={styles.img} alt='api' width={350} height={300}></img>
               
-              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/MorsecodeTranslator/'>Morse Code Translator - Written in HTML5, CSS3 and Vanilla JS <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/MorsecodeTranslator/'>Morse Code Translator - Written in HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../morse.png'} className={styles.img} alt='morse' width={350} height={300}></img>
               
-              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/discIDchecker/'>Discord ID Checker - Written in HTML5, CSS3 and Vanilla JS <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/discIDchecker/'>Discord ID Checker - Written in HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../discord.png'} className={styles.img} alt='discord' width={450} height={300}></img>
               
               <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/WallpaperClock'>Wallpaper Clock - Capstone Project - Written in C# <FontAwesomeIcon icon={faLink} /></Link></li>
