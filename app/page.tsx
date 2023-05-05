@@ -50,11 +50,9 @@ export default function Home() {
               <h1 id="skills" className="text-3xl font-bold text-white">Skills</h1>
           <div className={styles.skills}>  
             <ul className='font-bold'>     
-              <li className='p-1'>-Working knowledge: HTML5, CSS3, Javascript(ES6), React, Git, TailwindCSS, VS Code, UI Development, Frontend Development, Responsive Web Development, Github, Clickup.</li>
-              <li className='p-1'>-Familiar with: SQL/MYSQL, Bootstrap5, NextJS 13, XML, JSON, JQuery, C#, Python, OOP, WordPress.</li>
-              <li className='p-1'>-Software: Figma, Microsoft Office, Microsoft SQL Server, Visual Studio Code, Git Bash, Github, ClickUp</li>
-              <li className='p-1'>-Soft skills: Time Management, Creative Thinking, Teamwork, Responsibility, Ability to work under pressure and independently, Flexibility, Problem Solving, Excellent Verbal & Written Communication, Work Ethic, 
-              Attention To Detail, Adaptability.</li>
+            <li className='p-1'>•	Working knowledge: HTML5, CSS3, Javascript(ES6), React, Git, TailwindCSS, VS Code, UI Development, Frontend Development, Responsive Web Development, Github, Clickup, Microsoft SQL Server, Gitlab. </li>
+            <li className='p-1'>•	Familiar with: SQL/MYSQL, Bootstrap5, NextJS 13, XML, JSON, JQuery, C#, Python, OOP, Typescript, WordPress, Figma, Microsoft Office, SDLC, Photoshop.</li>
+            <li className='p-1'>•	Soft skills: Time Management, Creative Thinking, Teamwork, Responsibility, Ability to work under pressure and independently, Flexibility, Problem Solving, Excellent Verbal & Written Communication, Work Ethic, Attention To Detail, Adaptability.</li>
             </ul>     
           </div>
 
@@ -77,7 +75,7 @@ export default function Home() {
               <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
               <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
               </li>
-              </ul>
+          </ul>
           </div>
 
 
