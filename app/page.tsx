@@ -59,7 +59,7 @@ export default function Home() {
           <h1 id="projects" className="text-3xl font-bold text-white">Guild Gaming/Seminaut Inc Tasks</h1>
           <div className={styles.project}> 
           <ul>
-              <li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and Display All Badges When Button Is Clicked - Written in React & TailwindCSS (Mobile UI)
+              <li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and All Badges - React & TailwindCSS (Mobile UI)
               <img src={'../5badges.png'} className={styles.img} alt='guildgaming' width={400} height={400}></img>       
 
               <video className={styles.img} width={400} height={400} controls autoPlay>
@@ -67,11 +67,11 @@ export default function Home() {
                   </video> 
               </li>
 
-              <li className={styles.li}>Guild Gaming Monetization Task - Display Price Tiers - Written in React (Front End)
+              <li className={styles.li}>Guild Gaming Monetization Task - Display Price Tiers - React (Front End)
               <img src={'../featuredevents.png'} className={styles.img} alt='guildgaming' width={200} height={150}></img>              
               </li>
 
-              <li className={styles.li}>Guild Gaming UI Task - User Activity Post and Post Modal When Button Clicked - Written in React & TailwindCSS (Desktop UI) 
+              <li className={styles.li}>Guild Gaming UI Task - User Activity Post and Post Modal - React & TailwindCSS (Desktop UI) 
               <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
               <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
               </li>
@@ -83,16 +83,16 @@ export default function Home() {
               <h1 id="projects" className="text-3xl font-bold text-white">Personal Projects</h1>
           <div className={styles.project}> 
               <ul>
-              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/pet-pics-api/'>Pet Pics API Fetch - Written in React & CSS3 <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/pet-pics-api/'>Pet Pics API Fetch - React & CSS3 <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../api.png'} className={styles.img} alt='api' width={350} height={300}></img>
               
-              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/MorsecodeTranslator/'>Morse Code Translator - Written in HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/MorsecodeTranslator/'>Morse Code Translator - HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../morse.png'} className={styles.img} alt='morse' width={350} height={300}></img>
               
-              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/discIDchecker/'>Discord ID Checker - Written in HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/discIDchecker/'>Discord ID Checker - HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../discord.png'} className={styles.img} alt='discord' width={450} height={300}></img>
               
-              <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/WallpaperClock'>Wallpaper Clock - Capstone Project - Written in C# <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/WallpaperClock'>Wallpaper Clock - Capstone Project - C# <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../clock.png'} className={styles.img} alt='clock' width={450} height={300}></img>              
             </ul>  
           </div>

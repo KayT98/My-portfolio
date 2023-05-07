@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    background: url(../public/wallpaper.gif) no-repeat center center fixed;
+    background: url(../public/wallpaper.jpg) no-repeat center center fixed;
     height: 100%;
     width: 100%;
     -webkit-background-size: cover;
