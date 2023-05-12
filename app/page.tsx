@@ -39,8 +39,6 @@ export default function Home() {
       Highly motivated and bilingual in Vietnamese and English. Ready and willing to learn anything new to help the team achieve company goals. Superior work ethic and good teamwork, problem solving and organizational skills. 
       I am deeply passionate and excited to see where my passion for software engineering and website development will take me in the future, 
       and I look forward to making a positive impact in the field.
-
-
       </p>
         
           <div className={styles.downloadBtn}>
@@ -60,20 +58,20 @@ export default function Home() {
           <div className={styles.project}> 
           <ul>
               <li className={styles.li}>Guild Gaming UI Task - Display 5 Badges and All Badges - React & TailwindCSS (Mobile UI)
-              <img src={'../5badges.png'} className={styles.img} alt='guildgaming' width={400} height={400}></img>       
+                <img src={'../5badges.png'} className={styles.img} alt='guildgaming' width={400} height={400}></img>       
 
-              <video className={styles.img} width={400} height={400} controls autoPlay>
-                <source src='responsivebadges.mp4' type='video/mp4' />
-                  </video> 
+                <video className={styles.img} width={400} height={400} controls autoPlay>
+                  <source src='responsivebadges.mp4' type='video/mp4' />
+                </video> 
               </li>
 
               <li className={styles.li}>Guild Gaming Monetization Task - Display Price Tiers - React (Front End)
-              <img src={'../featuredevents.png'} className={styles.img} alt='guildgaming' width={200} height={150}></img>              
+                <img src={'../featuredevents.png'} className={styles.img} alt='guildgaming' width={200} height={150}></img>              
               </li>
 
               <li className={styles.li}>Guild Gaming UI Task - User Activity Post and Post Modal - React & TailwindCSS (Desktop UI) 
-              <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
-              <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
+                <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
+                <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
               </li>
           </ul>
           </div>
@@ -82,7 +80,7 @@ export default function Home() {
 
               <h1 id="projects" className="text-3xl font-bold text-white">Personal Projects</h1>
           <div className={styles.project}> 
-              <ul>
+            <ul>
               <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/pet-pics-api/'>Pet Pics API Fetch - React & CSS3 <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../api.png'} className={styles.img} alt='api' width={350} height={300}></img>
               
