@@ -73,6 +73,10 @@ export default function Home() {
                 <img src={'../userpost.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>
                 <img src={'../userpostmodal.png'} className={styles.img} alt='guildgaming' width={350} height={300}></img>    
               </li>
+
+              <li className={styles.li}>Guild Gaming Venues Task - Responsive Venue Cards for Both Mobile & Desktop - React & TailwindCSS 
+                <img src={'../venues.png'} className={styles.img} alt='guildgaming' width={550} height={500}></img>              
+              </li>
           </ul>
           </div>
 
