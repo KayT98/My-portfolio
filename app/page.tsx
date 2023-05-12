@@ -32,7 +32,7 @@ export default function Home() {
 
     <div id="top">
         <h1 className="text-4xl font-bold text-white"> &nbsp;Hello! My name is Kay Truong</h1>
-          <h2 className="text-3xl font-bold">I&apos;m a Frontend Web Developer at Seminaut Inc</h2>
+          <h2 className="text-3xl font-bold">I&apos;m a Software Developer at Seminaut Inc</h2>
       <p className="text-center font-bold">I graduated from Northeastern State University in Oklahoma, Spring 2022. I&apos;m a hardworking and passionate job seeker with strong organizational skills, with experience in HTML5 & CSS3, JavaScript(ES6), Front End Development and UI Design. Currently, I am working as an intern at Seminaut Inc, 
       where I am gaining valuable experience in software engineering and website development. In my spare time, I am currently focusing on learning new programming languages such as Python, C# and Java, as well as exploring the possibilities of Next.js. 
       I believe that these skills will help me to pursue better opportunities in the future and stay ahead in this constantly evolving industry. 
