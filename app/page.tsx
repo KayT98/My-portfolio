@@ -85,7 +85,7 @@ export default function Home() {
               <h1 id="projects" className="text-3xl font-bold text-white">Personal Projects</h1>
           <div className={styles.project}> 
             <ul>
-              <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/pet-pics-api/'>Pet Pics API Fetch - React & CSS3 <FontAwesomeIcon icon={faLink} /></Link></li>
+              <li className={styles.li}><Link target="_blank" href='#'>Pet Pics API Fetch - React & CSS3 <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../api.png'} className={styles.img} alt='api' width={350} height={300}></img>
               
               <li className={styles.li}><Link target="_blank" href='https://kayt98.github.io/MorsecodeTranslator/'>Morse Code Translator - HTML5, CSS3 and JavaScript <FontAwesomeIcon icon={faLink} /></Link></li>
