@@ -48,8 +48,8 @@ export default function Home() {
               <h1 id="skills" className="text-3xl font-bold text-white">Skills</h1>
           <div className={styles.skills}>  
             <ul className='font-bold'>     
-            <li className='p-1'>•	Working knowledge: HTML5, CSS3, Javascript(ES6), React, Git, TailwindCSS, VS Code, UI Development, Frontend Development, Responsive Web Development, Github, Clickup, Microsoft SQL Server, Gitlab. </li>
-            <li className='p-1'>•	Familiar with: SQL/MYSQL, Bootstrap5, NextJS 13, XML, JSON, JQuery, C#, Python, OOP, Typescript, WordPress, Figma, Microsoft Office, SDLC, Photoshop.</li>
+            <li className='p-1'>•	Working knowledge: HTML5, CSS3, Javascript(ES6), React, Git, TailwindCSS, VS Code, UI Development, Frontend Development, Responsive Web Development, Github, Clickup, Microsoft SQL Server, Gitlab, Microsoft Visual Studio </li>
+            <li className='p-1'>•	Familiar with: SQL/MYSQL, Bootstrap5, NextJS 13, XML, JSON, JQuery, C#, Python, OOP, Typescript, WordPress, Figma, Microsoft Office, SDLC, Photoshop, SEO, .</li>
             <li className='p-1'>•	Soft skills: Time Management, Creative Thinking, Teamwork, Responsibility, Ability to work under pressure and independently, Flexibility, Problem Solving, Excellent Verbal & Written Communication, Work Ethic, Attention To Detail, Adaptability.</li>
             </ul>     
           </div>
@@ -95,7 +95,10 @@ export default function Home() {
               <img src={'../discord.png'} className={styles.img} alt='discord' width={450} height={300}></img>
               
               <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/WallpaperClock'>Wallpaper Clock - Capstone Project - C# <FontAwesomeIcon icon={faLink} /></Link></li>
-              <img src={'../clock.png'} className={styles.img} alt='clock' width={450} height={300}></img>              
+              <img src={'../clock.png'} className={styles.img} alt='clock' width={450} height={300}></img>   
+
+              <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/musicPlayer'>Media Player - C# <FontAwesomeIcon icon={faLink} /></Link></li> 
+              <h1 className="text-xl font bold text-white">Coming soon :D</h1>          
             </ul>  
           </div>
               <h1 className="text-3xl font-bold text-white">Contact me!</h1>
