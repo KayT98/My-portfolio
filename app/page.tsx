@@ -97,7 +97,7 @@ export default function Home() {
               <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/WallpaperClock'>Wallpaper Clock - Capstone Project - C# <FontAwesomeIcon icon={faLink} /></Link></li>
               <img src={'../clock.png'} className={styles.img} alt='clock' width={450} height={300}></img>   
 
-              <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/musicPlayer'>Media Player - C# <FontAwesomeIcon icon={faLink} /></Link></li> 
+              <li className={styles.li}><Link target="_blank" href='https://github.com/KayT98/musicPlayer'>MP3 Player - C# <FontAwesomeIcon icon={faLink} /></Link></li> 
               <h1 className="text-xl font bold text-white">Coming soon :D</h1>          
             </ul>  
           </div>
